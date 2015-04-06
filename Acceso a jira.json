@@ -1,0 +1,61 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "https://educatablet.atlassian.net/login"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "username"
+      },
+      "text": "jorge.castaneda@educatablet.com"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "password"
+      },
+      "text": "Margarita14++"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "login"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "jira"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "home_link"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "dash_lnk_10400_lnk"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
